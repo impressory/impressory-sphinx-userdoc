@@ -6,9 +6,7 @@
 Impressory
 ==========
 
-Impressory is open source software for hosting interactive, social, connectivist teaching courses.
-
-It works in-class and on-line, and is designed to be easy and scalable.
+Impressory is open source software for hosting interactive, social, connectivist teaching courses. It works in-class and on-line, and is designed to be easy and scalable.
 
 The centre of a course is the newsfeed, where staff and students can post content and questions. 
 
@@ -20,7 +18,7 @@ Clicking on some content brings it up in the viewer. In this picture, the conten
 .. image:: http://farm4.staticflickr.com/3726/11680379025_d00b86a826_c.jpg
    :target: http://www.flickr.com/photos/13074671@N00/11680379025
 
-In both pictures, the live interaction stream is open. (You can toggle it open with the orange speech bubble).
+In both pictures, the live :ref:`eventroom-index` is open. (You can toggle it open with the orange speech bubble).
 
 A particularly effective way of using Impressory is to put your lectures in as content sequences. Then you can present them, with the interaction stream open, on the lecture screen allowing even large classes to interact with you. Questions on the interaction stream show up in orange to help highlight them. After the lecture, the class can continue the conversation from the newsfeed.
 
@@ -32,6 +30,7 @@ Contents:
 
    Front page <front/index>
    Courses <courses/index>
+   Enrolling users <courses/enrolments>
    Newsfeed <newsfeed/index>
    Viewer <viewer/index>
    Interaction Stream <eventroom/index>
@@ -41,6 +40,7 @@ Contents:
    Embedding Impressory elsewhere <embedding/index>
    Setting up a server <setup/index>
    
+
 
 
 
