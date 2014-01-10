@@ -25,21 +25,21 @@ Then we can build the software
 
    $ sbt dist
 
-3. Unzip the distribution file it made, and make sure the start script has execute permissions. (These instructions are for Linux)::
+   This builds the distribution zip in `target/universal/impressory-0.2-SNAPSHOT.zip`  You can copy this file wherever you'd like to run the server from.
 
-   $ unzip impressory-0.1.zip
-   $ cd impressory-0.1
-   $ chmod u+x start
+3. Unzip the distribution file it made::
 
+   $ unzip impressory-0.2-SNAPSHOT.zip
 
-4. To run the server, you now just run the start script. The instructions below are for Linux (using nohup so that when you close the terminal the program doesn't also close)::
+4. To run the server, you now just run the start-up script. The instructions below are for Linux (using nohup so that when you close the terminal the program doesn't also close)::
 
-   $ nohup ./start > log.out 2> err.out &
+   $ nohup impressory-0.2-SNAPSHOT/bin/impressory > log.out 2> err.out &
 
 The server should now be up and running, listening on port 9000. Open a web browser and visit it. The first user to register is given administrative rights, so you should make sure that's you!
 
 Although that's compiled and run the server, there are probably a few things you'll still want to configure:
 
+* Database environment variables
 * Social media logins
-* Port redirection 
 * HTTPS
+* Port redirection 

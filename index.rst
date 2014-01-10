@@ -38,7 +38,7 @@ Contents:
    Kinds of content <content/index>
    Enrolling students <enrolments/index>
    Embedding Impressory elsewhere <embedding/index>
-   Setting up a server <setup/index>
+   Setting up your own server <setup/index>
    
 
 
